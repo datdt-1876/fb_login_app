@@ -10,6 +10,9 @@
   </head>
 
   <body>
+    Session: <%= session[:access_token] %>
+    <br/>
+    Page: <%= session[:page_access_token] %>
     <%= yield %>
   </body>
 </html>
